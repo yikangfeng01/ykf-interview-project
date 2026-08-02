@@ -125,7 +125,8 @@ users ──1:N──▶ projects ──N:1──▶ templates
 
    ```css
    body { display: flex; flex-direction: column; min-height: 100vh; margin: 0; }
-   .topbar { height: 56px; flex-shrink: 0; }
+   .topbar { height: 56px; flex-shrink: 0; display: flex; align-items: center; }
+   .topbar-title { font-size: 1.5em; }  /* 签字页项目管理系统 — 缩小2倍品牌标题 */
    .layout { flex: 1; display: flex; overflow: hidden; }
    .sidebar { width: 220px; flex-shrink: 0; border-right: 1px solid #eee; }
    .content { flex: 1; overflow-y: auto; padding: 24px 32px; }

@@ -95,3 +95,11 @@
 - [x] 12.5 Add "是否公共变量" column after "类型" in project template variable management table; show "是" when `public_variables_id` is not null, "否" otherwise
 - [x] 12.6 Fix bind public variable value: pass `data-value` in checkbox dataset and use it in payload instead of hardcoded empty string; apply to both `doProjectBindPublicVars()` and `doBindPublicVars()`
 - [x] 12.7 In project template variable list operation column, disable the edit button when `public_variables_id` is not null (same pattern as template management edit restriction in 10.1)
+
+## 13. System Title Font Enlargement
+
+- [x] 13.1 In `static/index.html` shell rendering, add CSS class `.topbar-title { font-size: 3em; }` (or inline style) to the "签字页项目管理系统" title element in the topbar
+
+## 14. System Title Font Shrink
+
+- [x] 14.1 In `static/index.html`, change `.topbar-title { font-size: 3em }` → `.topbar-title { font-size: 1.5em }` (shrink by 2x)
