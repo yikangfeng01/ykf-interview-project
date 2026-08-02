@@ -1,6 +1,6 @@
 # 项目说明：
 
-### 本项目主要基于codebuddy(限时免费)+模型Hy3+openspec结合开发。
+### 本项目主要基于codebuddy(限时免费)+模型Hy3+openspec结合开发。复杂项目考虑再+superpowers。
 
 1. 项目登录用户名admin,密码password123,项目数据没做按用户隔离。 
 2. 项目测试模板文件在testtemplate目录下，变量配置格式为${张三}、${赵四}、${王五}等。 
