@@ -121,6 +121,8 @@ users ──1:N──▶ projects ──N:1──▶ templates
 
    侧边栏点击等价于 `navigate('home')` / `navigate('templates')`，路由系统保持不变。
 
+   项目模板列表（`loadProjectTemplates()`）操作列按钮：编辑、变量管理、**预览并下载**（替代原"预览"，点击后触发预览并同时提供下载）、删除。其中编辑按钮对 `public_template_id IS NOT NULL` 的记录渲染为禁用状态。
+
 7. **CSS 布局方案（Flexbox 三区）**
 
    ```css

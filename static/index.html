@@ -904,7 +904,7 @@
                                     : `<a onclick="showProjectEditTemplateModal(${t.id}, '${escAttr(t.name)}', '${escAttr(t.category)}', '${escAttr(t.description || '')}')">编辑</a>`
                                 }
                                 <a onclick="ptvarRowIndex=${idx + 1};navigate('project/${projectId}/templates/${t.id}/variables')">变量管理</a>
-                                <a onclick="previewProjectTemplate(${projectId}, ${t.id})">预览</a>
+                                <a onclick="previewProjectTemplate(${projectId}, ${t.id})">预览并下载</a>
                                 <a onclick="deleteProjectTemplate(${projectId}, ${t.id}, '${escAttr(t.name)}')" class="danger">删除</a>
                             </td>
                         </tr>

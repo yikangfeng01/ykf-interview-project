@@ -193,3 +193,14 @@ The system SHALL support binding public variables to project template variables 
 #### Scenario: Edit button disabled for public-bound project template variable
 - **WHEN** the user views the project template variable list and a variable has `public_variables_id` not null
 - **THEN** the system renders the edit button in a disabled (grayed out, non-clickable) state, indicating the variable is bound from a public variable and cannot be edited directly
+
+### Requirement: Template management list page shows preview-and-download button
+The system SHALL display a "预览并下载" button in the operation column of the project template management list page, replacing the previous "预览" button, to allow users to both preview and download the template.
+
+#### Scenario: Preview and download button in project template list
+- **WHEN** the user views the project template list (inside a project detail page)
+- **THEN** the system displays a "预览并下载" text-link button in the operation column for each template row
+
+#### Scenario: Click preview-and-download button
+- **WHEN** the user clicks the "预览并下载" button for a project template
+- **THEN** the system triggers the template preview function and provides a download option for the template file

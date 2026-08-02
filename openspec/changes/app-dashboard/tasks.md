@@ -103,3 +103,7 @@
 ## 14. System Title Font Shrink
 
 - [x] 14.1 In `static/index.html`, change `.topbar-title { font-size: 3em }` → `.topbar-title { font-size: 1.5em }` (shrink by 2x)
+
+## 15. Template List Preview Button: Change to Preview-and-Download
+
+- [x] 15.1 In `static/index.html` `loadProjectTemplates()`, change the preview button text from "预览" to "预览并下载" (line ~907)
